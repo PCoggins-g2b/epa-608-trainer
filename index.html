@@ -8,27 +8,33 @@
 </head>
 <body>
   <div class="app">
-    <header>
-      <h1>EPA 608 Trainer</h1>
-      <p>Fast study mode, exam mode, weak-area review, and practical technician tips.</p>
-      <div class="controls">
-        <button onclick="startMode('study','all')" class="primary">Study All</button>
-        <button onclick="startMode('exam','all')" class="primary">Full Exam</button>
-        <button onclick="showLibrary()">Question Library</button>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">EPA 608 Certification Prep</p>
+        <h1>EPA 608 Trainer</h1>
+        <p class="subtitle">Study mode, exam mode, missed-question review, and practical technician tips.</p>
       </div>
-      <div class="controls small" id="sectionButtons"></div>
+      <div class="hero-actions">
+        <button class="primary" onclick="startMode('study','all')">Study All</button>
+        <button class="primary outline" onclick="startMode('exam','all')">Full Exam</button>
+      </div>
     </header>
+
+    <section class="controls card">
+      <h2>Choose a Section</h2>
+      <div id="sectionButtons" class="button-grid"></div>
+    </section>
 
     <section class="stats">
       <div><span>Mode</span><strong id="modeStat">Ready</strong></div>
       <div><span>Section</span><strong id="sectionStat">—</strong></div>
-      <div><span>Progress</span><strong id="progressStat">0%</strong></div>
       <div><span>Answered</span><strong id="answeredStat">0/0</strong></div>
+      <div><span>Progress</span><strong id="progressStat">0%</strong></div>
     </section>
 
-    <main id="quizCard" class="card">
+    <main id="quizCard" class="card quiz-card">
       <div id="questionMeta" class="pill">Ready</div>
-      <h2 id="questionText">Choose Study or Exam mode to begin.</h2>
+      <h2 id="questionText">Choose Study Mode, Full Exam, or a section above to begin.</h2>
       <div class="progress"><div id="progressFill"></div></div>
       <div id="answers" class="answers"></div>
       <div id="learningBox" class="learning"></div>
@@ -38,12 +44,15 @@
         <button onclick="nextQuestion()" id="nextBtn" class="next" disabled>Next</button>
         <button onclick="finishSession()" class="success">Finish / Score</button>
         <button onclick="startMissedReview()" class="warning">Review Missed</button>
+        <button onclick="showLibrary()" class="secondary">Question Library</button>
       </div>
     </main>
 
     <section id="results" class="card hidden"></section>
+    <section id="mastery" class="card hidden"></section>
     <section id="library" class="card hidden"></section>
   </div>
+
   <script src="app.js"></script>
 </body>
 </html>
