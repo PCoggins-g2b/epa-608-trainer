@@ -1,20 +1,166 @@
 {
   "meta": {
-    ...
+    "title": "EPA 608 Trainer",
+    "version": "1.1-full-100",
+    "overallPassPercent": 75,
+    "corePassPercent": 85
   },
   "sections": {
     "Core": [
-      ...
+      {
+        "id": "core-001",
+        "difficulty": "easy",
+        "question": "What is the safest rule when transporting used refrigerant cylinders?",
+        "answers": [
+          "Use any clean container if sealed",
+          "Label only if full",
+          "Follow all required cylinder, labeling, and handling rules",
+          "Transport lying flat"
+        ],
+        "correct": 2,
+        "explanation": "Used refrigerant cylinders must follow all safety and labeling rules.",
+        "tip": "Choose the most complete safety answer."
+      },
+
+      {
+        "id": "core-002",
+        "difficulty": "easy",
+        "question": "Recovering refrigerant means:",
+        "answers": [
+          "Cleaning refrigerant",
+          "Removing refrigerant",
+          "Destroying refrigerant",
+          "Mixing refrigerant"
+        ],
+        "correct": 1,
+        "explanation": "Recovery is simply removing refrigerant from a system.",
+        "tip": "Recover = remove."
+      },
+
+      {
+        "id": "core-003",
+        "difficulty": "easy",
+        "question": "Which refrigerants damage the ozone layer?",
+        "answers": [
+          "HFC",
+          "HCFC",
+          "HFO",
+          "Natural only"
+        ],
+        "correct": 1,
+        "explanation": "HCFC contains chlorine, which damages ozone.",
+        "tip": "Chlorine = ozone damage."
+      },
+
+      {
+        "id": "core-004",
+        "difficulty": "easy",
+        "question": "Blended refrigerants should be charged:",
+        "answers": [
+          "As vapor",
+          "As liquid",
+          "Through compressor only",
+          "Mixed with nitrogen"
+        ],
+        "correct": 1,
+        "explanation": "Charging as liquid prevents separation.",
+        "tip": "Blends = liquid."
+      },
+
+      {
+        "id": "core-005",
+        "difficulty": "easy",
+        "question": "Why not fill a cylinder completely?",
+        "answers": [
+          "Rust risk",
+          "Expansion space needed",
+          "Purity loss",
+          "Label issues"
+        ],
+        "correct": 1,
+        "explanation": "Refrigerant expands with temperature.",
+        "tip": "80% fill rule."
+      },
+
+      {
+        "id": "core-006",
+        "difficulty": "medium",
+        "question": "Illegal refrigerant release includes:",
+        "answers": [
+          "Small hose loss",
+          "Catastrophic failure",
+          "Cutting a charged line",
+          "Recovery loss"
+        ],
+        "correct": 2,
+        "explanation": "Intentional release is illegal.",
+        "tip": "If avoidable, it's illegal."
+      },
+
+      {
+        "id": "core-007",
+        "difficulty": "easy",
+        "question": "Reclaiming refrigerant means:",
+        "answers": [
+          "Removing",
+          "Filtering",
+          "Restoring to new specs",
+          "Mixing"
+        ],
+        "correct": 2,
+        "explanation": "Reclaiming restores to new condition.",
+        "tip": "Reclaim = factory-level clean."
+      },
+
+      {
+        "id": "core-008",
+        "difficulty": "easy",
+        "question": "GWP baseline gas is:",
+        "answers": [
+          "Ammonia",
+          "CO2",
+          "R22",
+          "Propane"
+        ],
+        "correct": 1,
+        "explanation": "CO2 is baseline GWP = 1.",
+        "tip": "CO2 reference."
+      },
+
+      {
+        "id": "core-009",
+        "difficulty": "medium",
+        "question": "Best tool for small leaks:",
+        "answers": [
+          "Listen",
+          "Torch",
+          "Electronic detector",
+          "Look for frost"
+        ],
+        "correct": 2,
+        "explanation": "Electronic detection is most precise.",
+        "tip": "Modern tools win."
+      },
+
+      {
+        "id": "core-010",
+        "difficulty": "easy",
+        "question": "Compressor should receive:",
+        "answers": [
+          "Vapor",
+          "Liquid",
+          "High liquid",
+          "Solid"
+        ],
+        "correct": 0,
+        "explanation": "Compressors handle vapor only.",
+        "tip": "Liquid = damage."
+      }
     ],
-    "Type I": [
-      ...
-    ],
-    "Type II": [
-      ...
-    ],
-    "Type III": [
-      ...
-    ]
+
+    "Type I": [],
+    "Type II": [],
+    "Type III": []
   }
 }
 
