@@ -3,164 +3,1418 @@
     "title": "EPA 608 Trainer",
     "version": "1.1-full-100",
     "overallPassPercent": 75,
-    "corePassPercent": 85
+    "corePassPercent": 85,
+    "description": "EPA 608 learning engine with 25 questions per section, study mode, exam mode, adaptive missed-question review, and section strength indicators.",
+    "contentNote": "Question wording is rewritten for learning use from EPA 608 concepts and study-guide topics."
   },
   "sections": {
     "Core": [
       {
         "id": "core-001",
-        "difficulty": "easy",
-        "question": "What is the safest rule when transporting used refrigerant cylinders?",
+        "difficulty": "medium",
+        "question": "When transporting cylinders containing used refrigerant, DOT requires that you:",
         "answers": [
-          "Use any clean container if sealed",
-          "Label only if full",
-          "Follow all required cylinder, labeling, and handling rules",
-          "Transport lying flat"
+          "Use approved containers",
+          "Attach DOT classification tags",
+          "Use proper certified handling/transport procedures",
+          "Do all of the above"
         ],
-        "correct": 2,
-        "explanation": "Used refrigerant cylinders must follow all safety and labeling rules.",
-        "tip": "Choose the most complete safety answer."
+        "correct": 3,
+        "explanation": "Transport questions test full compliance. If all listed safety/legal steps are true, choose all of the above.",
+        "tip": "Focus on the safest, most complete compliant action."
       },
-
       {
         "id": "core-002",
-        "difficulty": "easy",
-        "question": "Recovering refrigerant means:",
+        "difficulty": "medium",
+        "question": "What synthetic lubricant is presently used with ternary blends containing HCFCs?",
         "answers": [
-          "Cleaning refrigerant",
-          "Removing refrigerant",
-          "Destroying refrigerant",
-          "Mixing refrigerant"
+          "Alkylbenzene",
+          "Glycol",
+          "Ester",
+          "Castor oil"
         ],
-        "correct": 1,
-        "explanation": "Recovery is simply removing refrigerant from a system.",
-        "tip": "Recover = remove."
+        "correct": 2,
+        "explanation": "Ester oils are commonly associated with many blended refrigerants.",
+        "tip": "Focus on the safest, most complete compliant action."
       },
-
       {
         "id": "core-003",
-        "difficulty": "easy",
-        "question": "Which refrigerants damage the ozone layer?",
+        "difficulty": "medium",
+        "question": "Which process cleans refrigerant for immediate reuse by oil separation and filtering?",
         "answers": [
-          "HFC",
-          "HCFC",
-          "HFO",
-          "Natural only"
+          "Recycling",
+          "Recovering",
+          "Reclaiming",
+          "Restoring"
         ],
-        "correct": 1,
-        "explanation": "HCFC contains chlorine, which damages ozone.",
-        "tip": "Chlorine = ozone damage."
+        "correct": 0,
+        "explanation": "Recycling cleans refrigerant for reuse. Recovering removes it; reclaiming restores it to new specifications.",
+        "tip": "Focus on the safest, most complete compliant action."
       },
-
       {
         "id": "core-004",
-        "difficulty": "easy",
-        "question": "Blended refrigerants should be charged:",
+        "difficulty": "medium",
+        "question": "Which refrigerant contains chlorine?",
         "answers": [
-          "As vapor",
-          "As liquid",
-          "Through compressor only",
-          "Mixed with nitrogen"
+          "R-22",
+          "R-134a",
+          "R-410A",
+          "R-1234yf"
         ],
-        "correct": 1,
-        "explanation": "Charging as liquid prevents separation.",
-        "tip": "Blends = liquid."
+        "correct": 0,
+        "explanation": "R-22 is an HCFC and contains chlorine.",
+        "tip": "Focus on the safest, most complete compliant action."
       },
-
       {
         "id": "core-005",
-        "difficulty": "easy",
-        "question": "Why not fill a cylinder completely?",
+        "difficulty": "medium",
+        "question": "Refrigerant cylinders should be all of the following EXCEPT:",
         "answers": [
-          "Rust risk",
-          "Expansion space needed",
-          "Purity loss",
-          "Label issues"
+          "Free of rust and damage",
+          "Filled to 95% capacity",
+          "Properly labeled",
+          "Secured"
         ],
         "correct": 1,
-        "explanation": "Refrigerant expands with temperature.",
-        "tip": "80% fill rule."
+        "explanation": "Recovery cylinders should not be filled to 95%; remember the 80% fill safety rule.",
+        "tip": "Focus on the safest, most complete compliant action."
       },
-
       {
         "id": "core-006",
         "difficulty": "medium",
-        "question": "Illegal refrigerant release includes:",
+        "question": "Which action violates the venting prohibition?",
         "answers": [
-          "Small hose loss",
-          "Catastrophic failure",
-          "Cutting a charged line",
-          "Recovery loss"
-        ],
-        "correct": 2,
-        "explanation": "Intentional release is illegal.",
-        "tip": "If avoidable, it's illegal."
-      },
-
-      {
-        "id": "core-007",
-        "difficulty": "easy",
-        "question": "Reclaiming refrigerant means:",
-        "answers": [
-          "Removing",
-          "Filtering",
-          "Restoring to new specs",
-          "Mixing"
-        ],
-        "correct": 2,
-        "explanation": "Reclaiming restores to new condition.",
-        "tip": "Reclaim = factory-level clean."
-      },
-
-      {
-        "id": "core-008",
-        "difficulty": "easy",
-        "question": "GWP baseline gas is:",
-        "answers": [
-          "Ammonia",
-          "CO2",
-          "R22",
-          "Propane"
+          "Accidental release during timely repair",
+          "Cutting a line before evacuating",
+          "Catastrophic appliance failure",
+          "Disconnecting low-loss hoses"
         ],
         "correct": 1,
-        "explanation": "CO2 is baseline GWP = 1.",
-        "tip": "CO2 reference."
+        "explanation": "Cutting a refrigerant line before evacuation is intentional venting.",
+        "tip": "Focus on the safest, most complete compliant action."
       },
-
+      {
+        "id": "core-007",
+        "difficulty": "medium",
+        "question": "How should refrigerant blends be charged?",
+        "answers": [
+          "As vapor",
+          "At very high temperatures",
+          "As liquid",
+          "Same as any refrigerant"
+        ],
+        "correct": 2,
+        "explanation": "Blends are charged as liquid to prevent fractionation.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-008",
+        "difficulty": "medium",
+        "question": "Which process returns refrigerant to new product specifications and requires chemical analysis?",
+        "answers": [
+          "Recovery",
+          "Recycle",
+          "Reprocess",
+          "Reclaim"
+        ],
+        "correct": 3,
+        "explanation": "Reclaiming restores refrigerant to new-product specifications.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
       {
         "id": "core-009",
         "difficulty": "medium",
-        "question": "Best tool for small leaks:",
+        "question": "What factor affects the required evacuation level?",
         "answers": [
-          "Listen",
-          "Torch",
-          "Electronic detector",
-          "Look for frost"
-        ],
-        "correct": 2,
-        "explanation": "Electronic detection is most precise.",
-        "tip": "Modern tools win."
-      },
-
-      {
-        "id": "core-010",
-        "difficulty": "easy",
-        "question": "Compressor should receive:",
-        "answers": [
-          "Vapor",
-          "Liquid",
-          "High liquid",
-          "Solid"
+          "Equipment size/type",
+          "Ambient temperature only",
+          "Moisture only",
+          "Micron gauge brand"
         ],
         "correct": 0,
-        "explanation": "Compressors handle vapor only.",
-        "tip": "Liquid = damage."
+        "explanation": "Evacuation requirements depend on appliance type and size/category.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-010",
+        "difficulty": "medium",
+        "question": "Which refrigerant has the lowest GWP among these?",
+        "answers": [
+          "R-134a",
+          "R-407C",
+          "R-410A",
+          "R-600a"
+        ],
+        "correct": 3,
+        "explanation": "R-600a has very low GWP compared with common HFCs.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-011",
+        "difficulty": "medium",
+        "question": "Which refrigerant type has the highest ODP?",
+        "answers": [
+          "HCFCs",
+          "HFCs",
+          "CFCs",
+          "HFOs"
+        ],
+        "correct": 2,
+        "explanation": "CFCs have the highest ozone depletion potential.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-012",
+        "difficulty": "medium",
+        "question": "HFC refrigerants contain which elements?",
+        "answers": [
+          "Chlorine, fluorine, carbon",
+          "Chlorine, fluorine, hydrogen",
+          "Hydrogen, chlorine, carbon",
+          "Hydrogen, fluorine, carbon"
+        ],
+        "correct": 3,
+        "explanation": "HFC = hydrofluorocarbon: hydrogen, fluorine, and carbon.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-013",
+        "difficulty": "medium",
+        "question": "Most effective method for locating a small refrigerant leak:",
+        "answers": [
+          "Standing vacuum test",
+          "Electronic/ultrasonic detector",
+          "Halide torch",
+          "Audible sound"
+        ],
+        "correct": 1,
+        "explanation": "Small leaks usually require electronic or ultrasonic detection.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-014",
+        "difficulty": "medium",
+        "question": "How should disposable refrigerant cylinders be discarded?",
+        "answers": [
+          "Vent and trash",
+          "Recover, render useless, recycle metal",
+          "Refill and reuse",
+          "Use as recovery tanks"
+        ],
+        "correct": 1,
+        "explanation": "Recover remaining refrigerant, render the cylinder unusable, then recycle the metal.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-015",
+        "difficulty": "medium",
+        "question": "What is being done in the U.S. to reduce ozone damage?",
+        "answers": [
+          "Use natural gas instead of coal",
+          "Phase out CFCs/HCFCs",
+          "Incinerator rules only",
+          "Increase AC efficiency only"
+        ],
+        "correct": 1,
+        "explanation": "Policy focuses on phasing out ozone-depleting refrigerants.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-016",
+        "difficulty": "medium",
+        "question": "What does Section 608 certification allow?",
+        "answers": [
+          "Import R-22",
+          "Purchase/handle regulated refrigerants",
+          "Service MVAC only",
+          "Perform any HVAC work"
+        ],
+        "correct": 1,
+        "explanation": "608 allows purchase and handling of regulated stationary HVAC refrigerants.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-017",
+        "difficulty": "medium",
+        "question": "What does a compound low-side gauge use below atmospheric pressure?",
+        "answers": [
+          "Psia only",
+          "Torrs and microns",
+          "Psig and inches Hg",
+          "Psia and microns"
+        ],
+        "correct": 2,
+        "explanation": "Compound gauges show positive pressure in psig and vacuum in inches of mercury.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-018",
+        "difficulty": "medium",
+        "question": "Which is NOT a recommended safety practice?",
+        "answers": [
+          "Wear safety glasses",
+          "Wear gloves",
+          "Follow safety precautions",
+          "Stay at least 5 feet away"
+        ],
+        "correct": 3,
+        "explanation": "The random 5-foot rule is not a standard requirement.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-019",
+        "difficulty": "medium",
+        "question": "If R-410A was added to an R-22 system, what should be done?",
+        "answers": [
+          "Vent it",
+          "Recycle normally",
+          "Recover into a separate tank",
+          "Use in another system"
+        ],
+        "correct": 2,
+        "explanation": "Mixed refrigerant is contaminated and should be recovered separately.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-020",
+        "difficulty": "medium",
+        "question": "What penalty may be imposed for Clean Air Act violations?",
+        "answers": [
+          "Loss of certification",
+          "Equipment confiscation only",
+          "Training only",
+          "Online test only"
+        ],
+        "correct": 0,
+        "explanation": "Technicians can lose certification in addition to other penalties.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-021",
+        "difficulty": "medium",
+        "question": "State of refrigerant entering the compressor:",
+        "answers": [
+          "Low-pressure liquid",
+          "Low-pressure vapor",
+          "High-pressure liquid",
+          "High-pressure vapor"
+        ],
+        "correct": 1,
+        "explanation": "Compressors are designed to compress vapor.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-022",
+        "difficulty": "medium",
+        "question": "Baseline gas for GWP:",
+        "answers": [
+          "Ammonia",
+          "Carbon dioxide",
+          "CFC-12",
+          "Propane"
+        ],
+        "correct": 1,
+        "explanation": "CO2 is the reference gas for GWP.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-023",
+        "difficulty": "medium",
+        "question": "Purpose of low-loss fittings:",
+        "answers": [
+          "Increase refrigerant release",
+          "Reduce release during hose connection/disconnection",
+          "Increase compressor speed",
+          "Clean oil"
+        ],
+        "correct": 1,
+        "explanation": "Low-loss fittings reduce emissions.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-024",
+        "difficulty": "medium",
+        "question": "Recovery means:",
+        "answers": [
+          "Cleaning refrigerant",
+          "Removing refrigerant from appliance",
+          "Restoring to new specs",
+          "Destroying refrigerant"
+        ],
+        "correct": 1,
+        "explanation": "Recovery means removing refrigerant and storing it externally.",
+        "tip": "Focus on the safest, most complete compliant action."
+      },
+      {
+        "id": "core-025",
+        "difficulty": "medium",
+        "question": "Oil stains near fittings can indicate:",
+        "answers": [
+          "Possible refrigerant leak",
+          "Normal airflow",
+          "Proper evacuation",
+          "Correct superheat"
+        ],
+        "correct": 0,
+        "explanation": "Leaks often carry oil, so oil stains are a clue.",
+        "tip": "Focus on the safest, most complete compliant action."
       }
     ],
-
-    "Type I": [],
-    "Type II": [],
-    "Type III": []
+    "Type I": [
+      {
+        "id": "type-i-001",
+        "difficulty": "medium",
+        "question": "High heat can decompose CFC/HCFC refrigerants into:",
+        "answers": [
+          "Boric/chromic acids",
+          "Sulfuric/phosphoric acids",
+          "Hydrochloric/hydrofluoric acids",
+          "Phosphoric/dodecyl acid"
+        ],
+        "correct": 2,
+        "explanation": "High temperatures can create dangerous acids.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-002",
+        "difficulty": "medium",
+        "question": "A reclamation facility receiving mixed refrigerant may:",
+        "answers": [
+          "Refuse or charge extra",
+          "Vent it",
+          "Resell as-is",
+          "Separate by fracking"
+        ],
+        "correct": 0,
+        "explanation": "Mixed refrigerants may be refused or cost more to process.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-003",
+        "difficulty": "medium",
+        "question": "Recovering from a refrigerator with inoperative compressor into non-pressurized container may require:",
+        "answers": [
+          "Heating and striking compressor",
+          "Recover natural flow only",
+          "No recovery if contaminated",
+          "Chasing refrigerant from oil with dry nitrogen"
+        ],
+        "correct": 3,
+        "explanation": "Dry nitrogen can help move trapped refrigerant from oil.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-004",
+        "difficulty": "medium",
+        "question": "Large refrigerant leak can cause suffocation because refrigerants:",
+        "answers": [
+          "Smell strong",
+          "Are lighter than air",
+          "Are heavier than air and displace oxygen",
+          "Cause sneezing"
+        ],
+        "correct": 2,
+        "explanation": "Many refrigerants displace oxygen in low areas.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-005",
+        "difficulty": "medium",
+        "question": "If refrigerant in recovery cylinder is suspected contaminated:",
+        "answers": [
+          "Send for reclamation",
+          "Weigh cylinder",
+          "Discard refrigerant",
+          "Dilute with virgin refrigerant"
+        ],
+        "correct": 0,
+        "explanation": "Contaminated refrigerant should be sent for reclamation.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-006",
+        "difficulty": "medium",
+        "question": "Passive system-dependent recovery for small appliances:",
+        "answers": [
+          "Uses a pump",
+          "Requires relief device",
+          "Captures refrigerant in non-pressurized container",
+          "Only with operating compressor"
+        ],
+        "correct": 2,
+        "explanation": "Passive recovery uses pressure/temperature differences.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-007",
+        "difficulty": "medium",
+        "question": "Direct drop-in substitute for R-22:",
+        "answers": [
+          "R-134a with TEV",
+          "R-410A with TEV",
+          "R-290 fixed orifice",
+          "There is no true drop-in substitute"
+        ],
+        "correct": 3,
+        "explanation": "R-22 substitutes require compatibility checks; true drop-ins are not assumed.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-008",
+        "difficulty": "medium",
+        "question": "80% capture from small appliance with non-operating compressor applies when using:",
+        "answers": [
+          "System-dependent passive process",
+          "Self-contained active process",
+          "Either process",
+          "Neither process"
+        ],
+        "correct": 0,
+        "explanation": "This 80% requirement is tied to system-dependent passive recovery.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-009",
+        "difficulty": "medium",
+        "question": "Passive recovery permitted for:",
+        "answers": [
+          "Centrifugal air conditioner",
+          "Reciprocating liquid chiller",
+          "Commercial walk-in freezer",
+          "Domestic refrigerator"
+        ],
+        "correct": 3,
+        "explanation": "Passive recovery is associated with small appliances.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-010",
+        "difficulty": "medium",
+        "question": "Typical service aperture on small appliances:",
+        "answers": [
+          "Straight tube with piercing valve",
+          "Line 15 inches below compressor",
+          "1/4-inch machine valve",
+          "None required"
+        ],
+        "correct": 0,
+        "explanation": "Small appliances often use a process tube accessed with a piercing valve.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-011",
+        "difficulty": "medium",
+        "question": "Recommended safe practice when recovering:",
+        "answers": [
+          "Wear eyewear and butyl-lined gloves",
+          "Respirator always",
+          "Cotton gloves with compressed gas",
+          "Ventilation only if oil fog appears"
+        ],
+        "correct": 0,
+        "explanation": "Eye protection and proper gloves reduce injury risk.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-012",
+        "difficulty": "medium",
+        "question": "Type I certification applies to:",
+        "answers": [
+          "5 lb or less hermetically sealed/factory charged appliances",
+          "Split systems 5 lb or less",
+          "Open-drive compressors",
+          "MVAC"
+        ],
+        "correct": 0,
+        "explanation": "Type I covers small factory-charged appliances.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-013",
+        "difficulty": "medium",
+        "question": "Maximum factory charge for Type I appliance:",
+        "answers": [
+          "3 lb",
+          "5 lb",
+          "10 lb",
+          "15 lb"
+        ],
+        "correct": 1,
+        "explanation": "Small appliance threshold is 5 pounds or less.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-014",
+        "difficulty": "medium",
+        "question": "New household refrigerators may be factory charged with all EXCEPT:",
+        "answers": [
+          "R-290",
+          "R-450A",
+          "R-600a",
+          "R-404A"
+        ],
+        "correct": 3,
+        "explanation": "R-404A is not the typical household refrigerator factory charge in this context.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-015",
+        "difficulty": "medium",
+        "question": "When installing access fitting on sealed system:",
+        "answers": [
+          "Leak test fitting before recovery",
+          "No leak test needed",
+          "Test only after repair",
+          "Pressurize before testing"
+        ],
+        "correct": 0,
+        "explanation": "Access fittings should be leak tested before recovery.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-016",
+        "difficulty": "medium",
+        "question": "Why install high and low side access valves recovering household refrigerator?",
+        "answers": [
+          "Improve recovery speed",
+          "Prevent non-condensables",
+          "Protect recovery machine",
+          "Prevent oil migration"
+        ],
+        "correct": 0,
+        "explanation": "Access to both sides improves recovery speed/completeness.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-017",
+        "difficulty": "medium",
+        "question": "Why let recovery cylinder temperature stabilize before pressure reading?",
+        "answers": [
+          "Prevent safety valve purging",
+          "Quickly determine level",
+          "Pressure-temperature comparison needs stable conditions",
+          "Temperature alone determines quality"
+        ],
+        "correct": 2,
+        "explanation": "PT readings require stable known conditions.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-018",
+        "difficulty": "medium",
+        "question": "Maximum normal charge allowed for system-dependent recovery equipment:",
+        "answers": [
+          "5 lb",
+          "10 lb",
+          "15 lb",
+          "50 lb"
+        ],
+        "correct": 2,
+        "explanation": "15 pounds is the key limit.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-019",
+        "difficulty": "medium",
+        "question": "Access valves needed with non-operating compressor and restricted capillary tube:",
+        "answers": [
+          "Two: high and low side",
+          "Only low side",
+          "Only high side",
+          "Two at compressor/condenser"
+        ],
+        "correct": 0,
+        "explanation": "Both sides need access if restriction traps refrigerant.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-020",
+        "difficulty": "medium",
+        "question": "Nitrogen tank used in repair must have:",
+        "answers": [
+          "Regulator",
+          "Float sensor",
+          "Red top",
+          "Hand valve"
+        ],
+        "correct": 0,
+        "explanation": "Use nitrogen only with a regulator.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-021",
+        "difficulty": "medium",
+        "question": "When R-410A is recovered:",
+        "answers": [
+          "Can mix with R-32/R-125",
+          "Can mix with R-134a",
+          "Need not be recovered",
+          "Recover into clearly marked vessel"
+        ],
+        "correct": 3,
+        "explanation": "Recover R-410A into a clearly marked vessel.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-022",
+        "difficulty": "medium",
+        "question": "Before beginning recovery, always:",
+        "answers": [
+          "Stabilize appliance at room temperature",
+          "Know refrigerant type",
+          "Move appliance outdoors",
+          "Disconnect from power"
+        ],
+        "correct": 1,
+        "explanation": "Know the refrigerant type to prevent mixing.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-023",
+        "difficulty": "medium",
+        "question": "Which does NOT meet Type I criteria?",
+        "answers": [
+          "MVAC-like system with 3 lb R-12",
+          "Water cooler 13 oz R-22",
+          "Food freezer 22 oz R-134a",
+          "Dehumidifier 7 oz R-410A"
+        ],
+        "correct": 0,
+        "explanation": "MVAC-like systems are treated differently.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-024",
+        "difficulty": "medium",
+        "question": "Certification required for recovering from small appliances:",
+        "answers": [
+          "Type II",
+          "Type III",
+          "Type I or Universal",
+          "Core only"
+        ],
+        "correct": 2,
+        "explanation": "Small appliance recovery requires Type I or Universal.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-i-025",
+        "difficulty": "medium",
+        "question": "Key Type I memory rule:",
+        "answers": [
+          "Low-pressure chillers only",
+          "Small appliances, 5 lb or less",
+          "Motor vehicles only",
+          "No recovery required"
+        ],
+        "correct": 1,
+        "explanation": "Type I = small appliances.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      }
+    ],
+    "Type II": [
+      {
+        "id": "type-ii-001",
+        "difficulty": "medium",
+        "question": "Dry nitrogen used to break vacuum during triple evacuation:",
+        "answers": [
+          "Often contains moisture",
+          "Requires minimum 10 psig",
+          "Is toxic when released",
+          "Requires pressure regulator"
+        ],
+        "correct": 3,
+        "explanation": "Nitrogen cylinders require a regulator.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-002",
+        "difficulty": "medium",
+        "question": "Before major repair on >200 lb R-410A appliance, evacuate to:",
+        "answers": [
+          "0 psig",
+          "25 mm Hg absolute",
+          "10 inches Hg vacuum",
+          "15 inches Hg vacuum"
+        ],
+        "correct": 1,
+        "explanation": "25 mm Hg absolute is the test value here.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-003",
+        "difficulty": "medium",
+        "question": "When is system-dependent recovery against EPA rules?",
+        "answers": [
+          "Compressor operational",
+          "Ambient over 105°F",
+          "Appliance contains over 15 lb refrigerant",
+          "Appliance leaking"
+        ],
+        "correct": 2,
+        "explanation": "System-dependent recovery is limited by charge size.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-004",
+        "difficulty": "medium",
+        "question": "After liquid refrigerant is recovered, remaining vapor is:",
+        "answers": [
+          "Purged",
+          "Isolated",
+          "Pumped into receiver",
+          "Removed by recovery system"
+        ],
+        "correct": 3,
+        "explanation": "Remaining vapor must be recovered.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-005",
+        "difficulty": "medium",
+        "question": "When could reciprocating compressor be damaged if energized?",
+        "answers": [
+          "Discharge valve closed",
+          "Suction valve open",
+          "Discharge valve open",
+          "Cooling demand steady"
+        ],
+        "correct": 0,
+        "explanation": "Closed discharge valve can cause dangerous pressure.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-006",
+        "difficulty": "medium",
+        "question": "After isolating compressor in 40 lb R-404A system:",
+        "answers": [
+          "Remove and cap",
+          "Evacuate isolated section to atmosphere",
+          "Evacuate isolated section to 0 psig and verify no rise",
+          "Evacuate whole system to 5 inches"
+        ],
+        "correct": 2,
+        "explanation": "Evacuate isolated section and verify pressure does not rise.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-007",
+        "difficulty": "medium",
+        "question": "When can appliance be recovered to atmospheric pressure?",
+        "answers": [
+          "For major repairs",
+          "After evacuation to environment",
+          "Leaks make prescribed level unattainable",
+          "When disposed"
+        ],
+        "correct": 2,
+        "explanation": "If leaks make prescribed recovery unattainable, special limits apply.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-008",
+        "difficulty": "medium",
+        "question": "After reaching required recovery vacuum:",
+        "answers": [
+          "Disconnect immediately",
+          "Wait to see if pressure rises",
+          "Break with nitrogen and open",
+          "Pressurize and leak check"
+        ],
+        "correct": 1,
+        "explanation": "A pressure rise may indicate remaining refrigerant or leaks.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-009",
+        "difficulty": "medium",
+        "question": "Follow-up verification after supermarket rack leak repair must be:",
+        "answers": [
+          "Same day",
+          "Next day",
+          "Within 10 days",
+          "Within 30 days"
+        ],
+        "correct": 2,
+        "explanation": "Follow-up verification is generally within 10 days.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-010",
+        "difficulty": "medium",
+        "question": "At start of recovery, which phase removed to save time?",
+        "answers": [
+          "Recovery phase",
+          "Recycle phase",
+          "Liquid phase",
+          "Vapor phase"
+        ],
+        "correct": 2,
+        "explanation": "Liquid recovery moves more refrigerant mass faster.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-011",
+        "difficulty": "medium",
+        "question": "First look for on leaking hermetic system:",
+        "answers": [
+          "Frost",
+          "Puddles refrigerant",
+          "Filter drier particles",
+          "Traces of oil"
+        ],
+        "correct": 3,
+        "explanation": "Oil traces are a common leak clue.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-012",
+        "difficulty": "medium",
+        "question": "Remove moisture from refrigerant in system by:",
+        "answers": [
+          "Purge condenser",
+          "Drain oil separator",
+          "Reduce water flow",
+          "Use filter drier"
+        ],
+        "correct": 3,
+        "explanation": "Filter driers remove moisture and contaminants.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-013",
+        "difficulty": "medium",
+        "question": "Non-hermetic belt-driven compressor unused for months likely leaks at:",
+        "answers": [
+          "Suction valve",
+          "Rotating shaft seal",
+          "King valves",
+          "Head gasket"
+        ],
+        "correct": 1,
+        "explanation": "Open-drive shaft seals can leak after sitting.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-014",
+        "difficulty": "medium",
+        "question": "Vapor recovery minimizes loss of:",
+        "answers": [
+          "Water",
+          "Oil",
+          "Refrigerant",
+          "Non-condensables"
+        ],
+        "correct": 1,
+        "explanation": "Vapor recovery reduces oil carryover.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-015",
+        "difficulty": "medium",
+        "question": "Speed up refrigerant removal by:",
+        "answers": [
+          "Smaller vessel",
+          "Cooling recovery cylinder",
+          "Two-stage vacuum pump",
+          "Heating cylinder"
+        ],
+        "correct": 1,
+        "explanation": "Cooling the recovery cylinder lowers pressure.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-016",
+        "difficulty": "medium",
+        "question": "Refrigerant leaving receiver is:",
+        "answers": [
+          "Low-pressure liquid",
+          "Low-pressure vapor",
+          "High-pressure liquid",
+          "High-pressure vapor"
+        ],
+        "correct": 2,
+        "explanation": "Receiver outlet is high-pressure liquid.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-017",
+        "difficulty": "medium",
+        "question": "Recovering R-410A after R-22 in recovery machine requires:",
+        "answers": [
+          "Change cylinder",
+          "Change expansion valve",
+          "Change filter/expansion valve",
+          "Remove R-22 and change filter"
+        ],
+        "correct": 3,
+        "explanation": "Avoid mixing refrigerants; clear unit and change filter.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-018",
+        "difficulty": "medium",
+        "question": "Hermetic recovery machine may overheat in deep vacuum because:",
+        "answers": [
+          "Runs faster",
+          "Motor relies on refrigerant flow cooling",
+          "Higher ratio limit",
+          "Lower viscosity oil"
+        ],
+        "correct": 1,
+        "explanation": "Hermetic motors need refrigerant flow for cooling.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-019",
+        "difficulty": "medium",
+        "question": "Connect hose for liquid recovery at:",
+        "answers": [
+          "Compressor suction",
+          "Compressor discharge",
+          "Liquid line",
+          "Condenser inlet"
+        ],
+        "correct": 2,
+        "explanation": "Liquid recovery is from the liquid line.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-020",
+        "difficulty": "medium",
+        "question": "Which repair is always major?",
+        "answers": [
+          "Evaporator coil replacement",
+          "Filter-drier replacement",
+          "Schrader core replacement",
+          "Condenser fan motor replacement"
+        ],
+        "correct": 0,
+        "explanation": "Evaporator coil replacement is a major repair.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-021",
+        "difficulty": "medium",
+        "question": "Detector not required with continuous ventilation for:",
+        "answers": [
+          "R-134a",
+          "R-404A",
+          "R-410A",
+          "R-717"
+        ],
+        "correct": 3,
+        "explanation": "R-717/ammonia has different safety group treatment.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-022",
+        "difficulty": "medium",
+        "question": "Best charging method for 80 lb system with air-cooled condenser/evaporator:",
+        "answers": [
+          "Vapor through suction",
+          "Liquid through discharge",
+          "Liquid through suction",
+          "Liquid through liquid-line valve"
+        ],
+        "correct": 3,
+        "explanation": "Large systems are charged liquid through liquid line when appropriate.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-023",
+        "difficulty": "medium",
+        "question": "False statement about stationary recovery/recycling equipment:",
+        "answers": [
+          "Tested by approved third party",
+          "Purchases reported to EPA",
+          "Low-loss fittings",
+          "Flammable equipment meets UL standard"
+        ],
+        "correct": 1,
+        "explanation": "Individual equipment purchases are not generally reported to EPA.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-024",
+        "difficulty": "medium",
+        "question": "If initial leak verification fails after repair:",
+        "answers": [
+          "Immediately retrofit/retire",
+          "Conduct additional repairs within window or mothball",
+          "Do follow-up verification",
+          "Report amount added"
+        ],
+        "correct": 1,
+        "explanation": "Failed verification means more repair action is needed.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-ii-025",
+        "difficulty": "medium",
+        "question": "2019 leak repair threshold for commercial refrigeration with 50+ lb R-22:",
+        "answers": [
+          "10%",
+          "20%",
+          "30%",
+          "35%"
+        ],
+        "correct": 1,
+        "explanation": "Commercial refrigeration threshold is commonly 20%.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      }
+    ],
+    "Type III": [
+      {
+        "id": "type-iii-001",
+        "difficulty": "medium",
+        "question": "ASHRAE 15-2013 room sensors/alarms detect:",
+        "answers": [
+          "A1 refrigerants",
+          "B2 refrigerants",
+          "A2 refrigerants",
+          "All refrigerant safety groups"
+        ],
+        "correct": 3,
+        "explanation": "Machine room detection broadly addresses refrigerant safety.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-002",
+        "difficulty": "medium",
+        "question": "When should appliance NOT be evacuated to prescribed level?",
+        "answers": [
+          "Major then minor repair",
+          "Repair followed by evacuation to environment",
+          "Leaks make prescribed evacuation unattainable",
+          "Disposed later"
+        ],
+        "correct": 2,
+        "explanation": "Leaks can make the prescribed level unattainable.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-003",
+        "difficulty": "medium",
+        "question": "How long keep records for disposal evacuation >5 and <50 lb?",
+        "answers": [
+          "1 year",
+          "3 years",
+          "5 years",
+          "10 years"
+        ],
+        "correct": 1,
+        "explanation": "3 years is the key recordkeeping value.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-004",
+        "difficulty": "medium",
+        "question": "Low-pressure refrigerant removal starts with:",
+        "answers": [
+          "Vapor removal",
+          "Liquid removal",
+          "Vapor and liquid removal",
+          "Oil separation"
+        ],
+        "correct": 1,
+        "explanation": "Low-pressure recovery starts with liquid removal when possible.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-005",
+        "difficulty": "medium",
+        "question": "ASHRAE 15 room sensors and alarms detect:",
+        "answers": [
+          "Refrigerant leaks",
+          "High ozone",
+          "Contamination",
+          "Excess oxygen"
+        ],
+        "correct": 0,
+        "explanation": "Sensors detect refrigerant leaks.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-006",
+        "difficulty": "medium",
+        "question": "After reaching recovery vacuum on low-pressure appliance:",
+        "answers": [
+          "Disconnect immediately",
+          "Wait to see if pressure rises",
+          "Break vacuum for liquid charge",
+          "Pressurize and leak check"
+        ],
+        "correct": 1,
+        "explanation": "Wait to see if system pressure rises.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-007",
+        "difficulty": "medium",
+        "question": "True statement about recovery/recycling equipment:",
+        "answers": [
+          "AHRI tested",
+          "Low-loss ball valves only",
+          "Must handle multiple refrigerants",
+          "Certified/labeled to meet EPA requirements"
+        ],
+        "correct": 3,
+        "explanation": "Equipment must be certified and labeled.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-008",
+        "difficulty": "medium",
+        "question": "Which action is always major?",
+        "answers": [
+          "Evaporator coil replacement",
+          "Filter-drier replacement",
+          "Switch replacement",
+          "Purge unit replacement"
+        ],
+        "correct": 0,
+        "explanation": "Evaporator coil replacement is major.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-009",
+        "difficulty": "medium",
+        "question": "Reduce refrigerant loss from R-123 chiller purge unit by:",
+        "answers": [
+          "Leak test and repair chiller",
+          "Seal discharge line",
+          "Pipe purge to low side",
+          "Pipe purge to recovery unit"
+        ],
+        "correct": 0,
+        "explanation": "Fix leaks to reduce air infiltration and purge losses.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-010",
+        "difficulty": "medium",
+        "question": "Best method to determine chiller normal charge:",
+        "answers": [
+          "Max power consumption",
+          "Compressor horsepower",
+          "Barrel dimensions",
+          "Equipment nameplate charge"
+        ],
+        "correct": 3,
+        "explanation": "Use the nameplate charge.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-011",
+        "difficulty": "medium",
+        "question": "Hydrostatic tube test kit will:",
+        "answers": [
+          "Determine if tube leaks",
+          "Blow water out",
+          "Remove water",
+          "Vent refrigerant"
+        ],
+        "correct": 0,
+        "explanation": "Hydrostatic testing finds tube leaks.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-012",
+        "difficulty": "medium",
+        "question": "Max nitrogen test pressure for low-pressure centrifugal:",
+        "answers": [
+          "0 psig",
+          "10 psig",
+          "25 psig",
+          "50 psig"
+        ],
+        "correct": 1,
+        "explanation": "10 psig is the common test value.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-013",
+        "difficulty": "medium",
+        "question": "R-123 at 14.7 PSIA boils at approx:",
+        "answers": [
+          "90°F",
+          "82°F",
+          "78°F",
+          "74°F"
+        ],
+        "correct": 1,
+        "explanation": "R-123 boils around 82°F at atmospheric pressure.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-014",
+        "difficulty": "medium",
+        "question": "Typical high-pressure cut-out on recovery unit for low-pressure chiller:",
+        "answers": [
+          "2 psig",
+          "5 psig",
+          "10 psig",
+          "15 psig"
+        ],
+        "correct": 2,
+        "explanation": "10 psig is a common setting.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-015",
+        "difficulty": "medium",
+        "question": "After liquid recovery from low-pressure chiller:",
+        "answers": [
+          "Recover vapor refrigerant",
+          "Pressurize with nitrogen",
+          "Separate oil",
+          "Solvent flush"
+        ],
+        "correct": 0,
+        "explanation": "Recover remaining vapor.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-016",
+        "difficulty": "medium",
+        "question": "Primary purpose of purge unit:",
+        "answers": [
+          "Remove refrigerant",
+          "Condense air",
+          "Condense water",
+          "Remove non-condensables"
+        ],
+        "correct": 3,
+        "explanation": "Purge units remove non-condensables.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-017",
+        "difficulty": "medium",
+        "question": "Oversized vacuum pump could:",
+        "answers": [
+          "Freeze trapped oil",
+          "Freeze trapped refrigerant",
+          "Freeze trapped water",
+          "Freeze valves"
+        ],
+        "correct": 2,
+        "explanation": "Rapid evacuation can freeze trapped water.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-018",
+        "difficulty": "medium",
+        "question": "Vapor remaining in average 350-ton R-123 chiller after liquid removal at 0 psig:",
+        "answers": [
+          "Trace amount",
+          "50 lb",
+          "75 lb",
+          "100 lb"
+        ],
+        "correct": 3,
+        "explanation": "A large amount of vapor can remain.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-019",
+        "difficulty": "medium",
+        "question": "Who keeps leak inspection and verification records?",
+        "answers": [
+          "Installer's employer",
+          "Only technician",
+          "Owner/operator",
+          "EPA division"
+        ],
+        "correct": 2,
+        "explanation": "Owner/operator keeps records.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-020",
+        "difficulty": "medium",
+        "question": "Pressurize R-123 after non-major repair by:",
+        "answers": [
+          "Adding nitrogen",
+          "Warming liquid refrigerant",
+          "Adding compressed air",
+          "Adding CO2"
+        ],
+        "correct": 1,
+        "explanation": "Warming refrigerant raises pressure without adding non-condensables.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-021",
+        "difficulty": "medium",
+        "question": "Where does refrigerant go after purge unit?",
+        "answers": [
+          "Evaporator",
+          "Condenser",
+          "Compressor intercooler",
+          "Recovery service vessel"
+        ],
+        "correct": 3,
+        "explanation": "It goes to the recovery/service vessel.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-022",
+        "difficulty": "medium",
+        "question": "Where does purge unit take suction?",
+        "answers": [
+          "Top of condenser",
+          "Compressor oil sump",
+          "Top of evaporator",
+          "Suction elbow"
+        ],
+        "correct": 0,
+        "explanation": "Non-condensables collect at top of condenser.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-023",
+        "difficulty": "medium",
+        "question": "Why introduce vapor before liquid after servicing?",
+        "answers": [
+          "Raises pressure slowly, preventing rupture disk failure",
+          "Faster than liquid",
+          "Liquid harder to control",
+          "Liquid in deep vacuum may freeze water in tubes"
+        ],
+        "correct": 3,
+        "explanation": "Liquid in deep vacuum can rapidly evaporate and freeze water.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-024",
+        "difficulty": "medium",
+        "question": "Comfort cooling chillers with 50+ lb ODS refrigerant repair leaks above:",
+        "answers": [
+          "5%",
+          "10%",
+          "20%",
+          "30%"
+        ],
+        "correct": 1,
+        "explanation": "Comfort cooling threshold is commonly 10%.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      },
+      {
+        "id": "type-iii-025",
+        "difficulty": "medium",
+        "question": "Charged low-pressure machines most efficiently leak checked by:",
+        "answers": [
+          "Adding dry nitrogen",
+          "Adding tracer dye",
+          "Adding heat with hot water/blankets",
+          "Operating purge to measure air"
+        ],
+        "correct": 2,
+        "explanation": "Heating raises pressure and helps find leaks.",
+        "tip": "Connect the rule to the equipment type and recovery procedure."
+      }
+    ]
   }
 }
-
