@@ -1,10 +1,11 @@
 {
   "meta": {
     "title": "EPA 608 Trainer",
-    "version": "0.1",
+    "version": "1.0-public-mvp",
     "overallPassPercent": 75,
     "corePassPercent": 85,
-    "contentNote": "Questions are rewritten for study use from EPA 608 concepts and technician training patterns."
+    "description": "Public-ready EPA 608 learning engine with study mode, exam mode, adaptive missed-question review, and section strength indicators.",
+    "contentNote": "Question wording is rewritten for learning use from EPA 608 concepts and study-guide topics."
   },
   "sections": {
     "Core": [
@@ -13,8 +14,8 @@
         "difficulty": "easy",
         "question": "What is the safest rule when transporting used refrigerant cylinders?",
         "answers": [
-          "Use any clean container if sealed",
-          "Label the cylinder only if full",
+          "Use any clean container if it is sealed",
+          "Label the cylinder only if it is full",
           "Follow all required cylinder, labeling, and handling rules",
           "Transport the cylinder lying flat"
         ],
@@ -147,6 +148,34 @@
         "correct": 0,
         "explanation": "Compressors are designed to compress vapor. Liquid entering the compressor can cause damage.",
         "tip": "Liquid entering a compressor is called slugging and can be destructive."
+      },
+      {
+        "id": "core-011",
+        "difficulty": "easy",
+        "question": "What should be done with disposable refrigerant cylinders before recycling the metal?",
+        "answers": [
+          "Vent the remaining refrigerant",
+          "Recover remaining refrigerant and render the cylinder unusable",
+          "Refill them with a different refrigerant",
+          "Use them as recovery cylinders"
+        ],
+        "correct": 1,
+        "explanation": "Disposable cylinders should have refrigerant recovered, then be made unusable and recycled properly.",
+        "tip": "Never reuse a disposable cylinder as a recovery tank."
+      },
+      {
+        "id": "core-012",
+        "difficulty": "medium",
+        "question": "What should be done if two different refrigerants are accidentally mixed?",
+        "answers": [
+          "Use the mixture in a similar system",
+          "Recover it into a separate container",
+          "Vent it because it cannot be reused",
+          "Add virgin refrigerant to dilute it"
+        ],
+        "correct": 1,
+        "explanation": "Mixed refrigerant is contaminated and should be isolated in a separate recovery container.",
+        "tip": "Never contaminate clean refrigerant cylinders with unknown mixtures."
       }
     ],
     "Type I": [
@@ -367,3 +396,4 @@
     ]
   }
 }
+
