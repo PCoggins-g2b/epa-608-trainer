@@ -31,12 +31,92 @@
       "typeComparison": [
         {"type": "Core", "point": "Know refrigerant families, ozone/GWP concepts, recovery/recycle/reclaim, and vapor vs. liquid basics."},
         {"type": "Type I", "point": "Small appliances have limited access and small charge sizes. Recovery may depend on appliance pressure or compressor condition."},
-        {"type": "Type II", "point": "High-pressure systems often emphasize liquid recovery, compressor protection, and charging blends as liquid."},
+        {"type": "Type II", "point": "High-pressure systems emphasize liquid recovery, compressor protection, and charging blends as liquid."},
         {"type": "Type III", "point": "Low-pressure chillers may operate below atmospheric pressure, so air can leak inward and purge units matter."}
       ],
       "imagePrompts": [
         "Diagram: compressor receives low-pressure vapor, condenser produces high-pressure liquid, expansion device drops pressure, evaporator boils refrigerant to vapor.",
         "Wordless workshop panel: technician prevents liquid slugging by ensuring vapor enters compressor."
+      ]
+    },
+    {
+      "id": "epa-rules-certification",
+      "title": "EPA Rules, Certification, and Legal Handling",
+      "subtitle": "The compliance layer: who can handle refrigerant, what cannot be vented, and why recordkeeping matters.",
+      "sections": [
+        {
+          "heading": "Big Idea",
+          "body": "EPA 608 is mainly about preventing refrigerant emissions from stationary refrigeration and air-conditioning equipment. Certification proves that a technician understands legal recovery, safe handling, and environmental rules."
+        },
+        {
+          "heading": "Certification Scope",
+          "body": "Core knowledge applies to everyone. Type I covers small appliances, Type II covers high-pressure and very-high-pressure appliances, Type III covers low-pressure appliances, and Universal covers all three types."
+        },
+        {
+          "heading": "Venting Rule",
+          "body": "A technician should not intentionally release regulated refrigerant. Small unavoidable releases may occur during proper connection or recovery, but intentionally cutting or opening a charged system before recovery violates the basic rule."
+        }
+      ],
+      "chart": {
+        "title": "Certification Types",
+        "columns": ["Certification", "Covers", "Common Equipment", "Key Exam Idea"],
+        "rows": [
+          ["Core", "Required foundation", "All EPA 608 categories", "Rules, safety, environment"],
+          ["Type I", "Small appliances", "Refrigerators, small self-contained units", "5 lb or less, sealed systems"],
+          ["Type II", "High-pressure systems", "Residential split systems, commercial refrigeration", "Recovery, charging, major repairs"],
+          ["Type III", "Low-pressure systems", "Large chillers", "Purge units, air leaks, low pressure"],
+          ["Universal", "Types I, II, and III", "All stationary categories", "All content areas"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Legal handling, venting prohibition, certification purpose, and environmental basics."},
+        {"type": "Type I", "point": "Small appliance recovery before disposal and proper access fittings."},
+        {"type": "Type II", "point": "High-pressure recovery, repair verification, and leak thresholds."},
+        {"type": "Type III", "point": "Low-pressure evacuation, purge records, and leak management."}
+      ],
+      "imagePrompts": [
+        "Flowchart: Core leads to Type I, Type II, Type III, and Universal certification.",
+        "Wordless workshop panel: technician recovers refrigerant before cutting a line."
+      ]
+    },
+    {
+      "id": "environment-ozone-gwp",
+      "title": "Environment: Ozone, GWP, and Refrigerant Families",
+      "subtitle": "How refrigerant chemistry connects to ozone depletion, global warming potential, and phaseout rules.",
+      "sections": [
+        {
+          "heading": "Ozone Depletion",
+          "body": "CFCs and HCFCs contain chlorine. Chlorine can damage the stratospheric ozone layer. That is why older refrigerants such as CFCs and HCFCs have been phased out or heavily restricted."
+        },
+        {
+          "heading": "Global Warming Potential",
+          "body": "GWP compares how much heat a gas traps compared with carbon dioxide. CO2 is the baseline and has a GWP of 1. HFCs do not damage ozone, but many have high GWP."
+        },
+        {
+          "heading": "Low-GWP Direction",
+          "body": "Modern refrigerant trends are moving toward lower-GWP options such as HFOs and some natural refrigerants. These may have different flammability or handling concerns, so safety classification matters."
+        }
+      ],
+      "chart": {
+        "title": "Environmental Memory Chart",
+        "columns": ["Term", "Meaning", "Exam Shortcut"],
+        "rows": [
+          ["ODP", "Ozone Depletion Potential", "Chlorine is the key clue"],
+          ["GWP", "Global Warming Potential", "CO2 = baseline of 1"],
+          ["CFC", "Older chlorine refrigerant", "High ozone damage"],
+          ["HCFC", "Hydrogen + chlorine refrigerant", "Lower ODP than CFC but still regulated"],
+          ["HFC", "No chlorine", "No ODP, often high GWP"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Most environmental chemistry questions live in Core."},
+        {"type": "Type I", "point": "Small appliances may use newer low-GWP refrigerants; safe recovery still applies."},
+        {"type": "Type II", "point": "High-pressure systems commonly involve R-22, R-410A, and blend/retrofit issues."},
+        {"type": "Type III", "point": "Low-pressure chillers may use refrigerants with special pressure and purge considerations."}
+      ],
+      "imagePrompts": [
+        "Chart: chlorine-containing refrigerants move toward ozone depletion risk.",
+        "Visual: CO2 baseline compared to high-GWP refrigerant gas."
       ]
     },
     {
@@ -78,6 +158,241 @@
       ]
     },
     {
+      "id": "cylinders-dot-transport",
+      "title": "Cylinders, DOT Rules, and the 80% Fill Limit",
+      "subtitle": "Why cylinder type, labeling, condition, and fill level matter for safety and compliance.",
+      "sections": [
+        {
+          "heading": "Cylinder Safety",
+          "body": "Recovery cylinders must be approved, labeled, in good condition, and not overfilled. Refrigerant expands when warmed, so a full cylinder can become dangerous if there is no expansion space."
+        },
+        {
+          "heading": "80% Rule",
+          "body": "A common exam rule is that recovery cylinders should not be filled beyond 80% by volume. This leaves room for expansion. Overfilling is a major safety hazard."
+        },
+        {
+          "heading": "Disposable Cylinders",
+          "body": "Disposable cylinders are not recovery cylinders. Before disposal, remaining refrigerant should be recovered, the cylinder should be rendered unusable, and the metal should be recycled according to proper procedure."
+        }
+      ],
+      "chart": {
+        "title": "Cylinder Do / Do Not",
+        "columns": ["Do", "Do Not", "Reason"],
+        "rows": [
+          ["Use approved recovery cylinders", "Use disposable cylinders for recovery", "Recovery cylinders are built for that purpose"],
+          ["Label refrigerant clearly", "Mix refrigerants", "Prevents contamination"],
+          ["Leave expansion space", "Fill to 95% or 100%", "Prevents dangerous pressure"],
+          ["Secure cylinders", "Transport carelessly", "DOT and safety compliance"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Most cylinder safety and DOT-style questions are Core knowledge."},
+        {"type": "Type I", "point": "Small appliance recovery still requires proper recovery containers."},
+        {"type": "Type II", "point": "Large refrigerant charges make cylinder management more important."},
+        {"type": "Type III", "point": "Chiller recovery may involve large quantities and service vessels."}
+      ],
+      "imagePrompts": [
+        "Wordless workshop panel: recovery cylinder on scale, technician stops at 80% fill.",
+        "Diagram: disposable cylinder marked not refillable and rendered unusable before recycling."
+      ]
+    },
+    {
+      "id": "type-i-small-appliances",
+      "title": "Type I: Small Appliances and System-Dependent Recovery",
+      "subtitle": "The Type I world: sealed systems, small charges, access fittings, and passive recovery.",
+      "sections": [
+        {
+          "heading": "Small Appliance Definition",
+          "body": "Type I generally covers small appliances that are factory charged and contain 5 pounds or less of refrigerant. Examples include household refrigerators, small freezers, dehumidifiers, and some small self-contained equipment."
+        },
+        {
+          "heading": "Access and Recovery",
+          "body": "Small appliances may not have standard service valves. Technicians may use temporary access fittings, but those fittings should be leak tested and should not be treated as permanent reliable repairs."
+        },
+        {
+          "heading": "Operating vs. Non-Operating Compressor",
+          "body": "If the compressor works, it may help move refrigerant during system-dependent recovery. If it does not work, access to both high and low sides may be needed to recover trapped refrigerant."
+        }
+      ],
+      "chart": {
+        "title": "Type I Memory Chart",
+        "columns": ["Concept", "Meaning", "Exam Clue"],
+        "rows": [
+          ["Small appliance", "5 lb or less", "Factory-charged, sealed system"],
+          ["Passive recovery", "Uses pressure/temperature", "No recovery compressor"],
+          ["Active recovery", "Uses pump/compressor", "Powered recovery device"],
+          ["Non-operating compressor", "Cannot move refrigerant", "Access both sides if needed"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Know recovery terms, safety, and no venting."},
+        {"type": "Type I", "point": "Focus on small charge size, passive recovery, access fittings, and disposal."},
+        {"type": "Type II", "point": "Similar recovery principles, but higher pressure and larger systems."},
+        {"type": "Type III", "point": "Very different pressure behavior; low-pressure chillers draw air inward."}
+      ],
+      "imagePrompts": [
+        "Small refrigerator sealed system diagram with compressor, capillary tube, evaporator, condenser.",
+        "Wordless workshop panel: technician installs temporary piercing valve, leak tests it, recovers refrigerant."
+      ]
+    },
+    {
+      "id": "type-ii-high-pressure",
+      "title": "Type II: High-Pressure Systems, Charging, and Compressor Protection",
+      "subtitle": "The field-service core: residential split systems, commercial refrigeration, high pressure, superheat, subcooling, and liquid recovery.",
+      "sections": [
+        {
+          "heading": "High-Pressure Systems",
+          "body": "Type II covers high-pressure and very-high-pressure appliances. This includes many residential and commercial systems. Pressure, airflow, charging, and compressor protection are major themes."
+        },
+        {
+          "heading": "Liquid and Vapor Management",
+          "body": "Liquid recovery is often faster because liquid contains more refrigerant mass. But liquid refrigerant entering a compressor can cause slugging. The system must be handled in a way that protects the compressor."
+        },
+        {
+          "heading": "Superheat and Subcooling",
+          "body": "Superheat helps evaluate vapor condition leaving the evaporator. Subcooling helps evaluate liquid condition leaving the condenser. A simple memory hook is: superheat = vapor, subcooling = liquid."
+        }
+      ],
+      "chart": {
+        "title": "Type II Field Clues",
+        "columns": ["Clue", "Likely Meaning", "Why It Matters"],
+        "rows": [
+          ["Dirty condenser", "High head pressure", "Poor heat rejection"],
+          ["Low airflow evaporator", "Coil freezing risk", "Poor heat absorption"],
+          ["Liquid to compressor", "Slugging", "Compressor damage"],
+          ["Subcooling", "Liquid condition", "Charging diagnosis"],
+          ["Superheat", "Vapor condition", "Evaporator/compressor protection"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Know liquid vs. vapor and safety basics."},
+        {"type": "Type I", "point": "Small appliance systems are sealed and limited access."},
+        {"type": "Type II", "point": "High-pressure service emphasizes liquid recovery, pressure testing, charging, airflow, and compressor protection."},
+        {"type": "Type III", "point": "Low-pressure chillers require different pressure logic and purge concepts."}
+      ],
+      "imagePrompts": [
+        "Residential split system diagram showing indoor evaporator, outdoor condenser, compressor, and metering device.",
+        "Wordless workshop panel: liquid refrigerant slugging compressor with warning symbol."
+      ]
+    },
+    {
+      "id": "type-ii-leak-repair-major-repairs",
+      "title": "Type II: Leak Repair, Major Repairs, and Verification",
+      "subtitle": "How leak thresholds, major repairs, isolation, and verification show up on high-pressure appliance questions.",
+      "sections": [
+        {
+          "heading": "Major Repairs",
+          "body": "Major repairs involve opening important refrigerant-containing parts of the appliance, such as replacing an evaporator coil. Major repairs usually trigger stricter recovery and evacuation expectations."
+        },
+        {
+          "heading": "Leak Verification",
+          "body": "After a leak repair, verification testing confirms that the repair worked. Some systems require an initial verification and a follow-up verification within a required time period."
+        },
+        {
+          "heading": "Commercial Refrigeration Thresholds",
+          "body": "Large commercial systems have leak repair thresholds. The exam often asks what happens when the annualized leak rate exceeds a threshold and whether repairs, verification, retrofit, or retirement steps are required."
+        }
+      ],
+      "chart": {
+        "title": "Leak Repair Logic",
+        "columns": ["Step", "Question to Ask", "Action"],
+        "rows": [
+          ["1", "Is the appliance above the charge threshold?", "Leak rules may apply"],
+          ["2", "Is the leak rate above the trigger?", "Repair required"],
+          ["3", "Did initial verification pass?", "If not, continue repairs"],
+          ["4", "Is follow-up verification required?", "Complete it within the required window"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Know no venting and general leak safety."},
+        {"type": "Type I", "point": "Small appliance disposal and recovery are more emphasized than leak-rate calculations."},
+        {"type": "Type II", "point": "Leak thresholds, major repairs, verification, and high-pressure recovery are central."},
+        {"type": "Type III", "point": "Leak issues often appear through purge operation and low-pressure air infiltration."}
+      ],
+      "imagePrompts": [
+        "Flowchart: leak found → repair → initial verification → follow-up verification.",
+        "Wordless workshop panel: oil stain on coil connection leading to leak repair and verification."
+      ]
+    },
+    {
+      "id": "type-iii-low-pressure-chillers",
+      "title": "Type III: Low-Pressure Chillers and Purge Units",
+      "subtitle": "Why low-pressure systems are different: air leaks inward, purge units remove non-condensables, and pressure must sometimes be raised.",
+      "sections": [
+        {
+          "heading": "Low-Pressure Difference",
+          "body": "Low-pressure appliances may operate below atmospheric pressure. That means leaks can pull air and moisture into the system instead of pushing refrigerant out. This is a key Type III difference."
+        },
+        {
+          "heading": "Purge Units",
+          "body": "A purge unit removes non-condensables such as air. If a purge unit runs excessively, that can suggest air is leaking into the chiller and the system should be leak checked."
+        },
+        {
+          "heading": "Raising Pressure",
+          "body": "Charged low-pressure systems may be leak checked more effectively by warming the system to raise pressure. Adding heat can help reveal leaks without adding non-condensables."
+        }
+      ],
+      "chart": {
+        "title": "Type III Key Ideas",
+        "columns": ["Concept", "Meaning", "Exam Shortcut"],
+        "rows": [
+          ["Below atmospheric", "Air can leak inward", "Opposite of many high-pressure systems"],
+          ["Purge unit", "Removes non-condensables", "Frequent purge = possible leak"],
+          ["Heat added", "Raises pressure", "Helps leak checking"],
+          ["Liquid before vapor", "Recovery sequence", "Still recover all refrigerant"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "General recovery and safety still apply."},
+        {"type": "Type I", "point": "Small sealed systems are not the same as low-pressure chillers."},
+        {"type": "Type II", "point": "High-pressure systems tend to leak outward; Type III may leak air inward."},
+        {"type": "Type III", "point": "Purge units, air infiltration, low-pressure recovery, and heating for leak checks dominate."}
+      ],
+      "imagePrompts": [
+        "Low-pressure chiller diagram showing evaporator, condenser, compressor, and purge unit.",
+        "Wordless workshop panel: air arrows entering low-pressure chiller leak point."
+      ]
+    },
+    {
+      "id": "evacuation-pressure-rise",
+      "title": "Evacuation, Vacuum, and Pressure-Rise Tests",
+      "subtitle": "What evacuation does, why pressure rise matters, and how moisture and remaining refrigerant confuse the picture.",
+      "sections": [
+        {
+          "heading": "Purpose of Evacuation",
+          "body": "Evacuation removes air and moisture from the system before charging or after opening the system. Moisture can create acid and ice restrictions, so evacuation is both a performance and safety issue."
+        },
+        {
+          "heading": "Pressure Rise",
+          "body": "After reaching a required vacuum, a technician may wait to see if the pressure rises. A rise can indicate a leak, remaining refrigerant boiling off, or moisture outgassing."
+        },
+        {
+          "heading": "Triple Evacuation",
+          "body": "Triple evacuation uses evacuation and dry nitrogen breaks to help remove moisture. Nitrogen must be dry and regulated. Oxygen must never be used."
+        }
+      ],
+      "chart": {
+        "title": "Vacuum Test Clues",
+        "columns": ["Observation", "Possible Meaning", "Response"],
+        "rows": [
+          ["Pressure holds", "System likely tight/dry", "Proceed if requirements met"],
+          ["Pressure rises quickly", "Possible leak", "Leak check"],
+          ["Pressure rises slowly", "Moisture/outgassing or refrigerant boil-off", "Continue evacuation/evaluate"],
+          ["Used nitrogen", "Must be regulated", "Never use oxygen"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Know vacuum concepts and safety basics."},
+        {"type": "Type I", "point": "Small sealed systems can be easily contaminated when opened."},
+        {"type": "Type II", "point": "Evacuation levels and pressure-rise checks are common after service or major repair."},
+        {"type": "Type III", "point": "Low-pressure chillers may require special low-pressure evacuation logic and standing tests."}
+      ],
+      "imagePrompts": [
+        "Diagram: vacuum pump connected to system with micron gauge and nitrogen cylinder regulator.",
+        "Chart: vacuum level drops, then pressure-rise test line."
+      ]
+    },
+    {
       "id": "leaks-contamination-safety",
       "title": "Leaks, Contamination, and Safety",
       "subtitle": "The practical field clues and safety rules that show up repeatedly on the exam.",
@@ -114,6 +429,123 @@
       "imagePrompts": [
         "Diagram: oil stain near flare fitting indicating possible refrigerant leak.",
         "Wordless workshop panel: technician uses nitrogen regulator, never oxygen."
+      ]
+    },
+    {
+      "id": "charging-superheat-subcooling",
+      "title": "Charging, Superheat, and Subcooling",
+      "subtitle": "A simple way to remember liquid, vapor, superheat, subcooling, and blend charging.",
+      "sections": [
+        {
+          "heading": "Charging Basics",
+          "body": "Charging is adding refrigerant to a system. The correct procedure depends on refrigerant type, system design, and manufacturer instructions. Blended refrigerants are commonly charged as liquid to maintain composition."
+        },
+        {
+          "heading": "Superheat",
+          "body": "Superheat tells you about vapor after the evaporator. It helps confirm that the refrigerant has boiled off before reaching the compressor. Too little superheat can mean liquid return risk."
+        },
+        {
+          "heading": "Subcooling",
+          "body": "Subcooling tells you about liquid after the condenser. It helps confirm that refrigerant leaving the condenser is liquid and can be used for charging diagnostics on many systems."
+        }
+      ],
+      "chart": {
+        "title": "Superheat vs. Subcooling",
+        "columns": ["Term", "State", "Location", "Memory Hook"],
+        "rows": [
+          ["Superheat", "Vapor", "After evaporator / suction side", "Superheat = vapor safety"],
+          ["Subcooling", "Liquid", "After condenser / liquid line", "Subcooling = liquid quality"],
+          ["Blend charging", "Liquid", "Charging cylinder / service procedure", "Blend = liquid to prevent separation"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Know liquid vs. vapor and blend charging."},
+        {"type": "Type I", "point": "Small appliances are often sealed systems; charging may be less emphasized than recovery/disposal."},
+        {"type": "Type II", "point": "Superheat, subcooling, airflow, and high-pressure diagnostics are most relevant."},
+        {"type": "Type III", "point": "Low-pressure chiller charging has special vapor/liquid concerns under vacuum."}
+      ],
+      "imagePrompts": [
+        "Diagram: suction line superheat and liquid line subcooling points on split system.",
+        "Wordless workshop panel: blended refrigerant cylinder feeding liquid through proper charging method."
+      ]
+    },
+    {
+      "id": "oils-blends-compatibility",
+      "title": "Oils, Blends, and Compatibility",
+      "subtitle": "Why refrigerant, oil, and system components must match before recovery, retrofit, or charging.",
+      "sections": [
+        {
+          "heading": "Why Oil Matters",
+          "body": "Refrigerant and oil must be compatible so oil can return properly to the compressor. Wrong oil can cause lubrication problems, poor oil return, and compressor damage."
+        },
+        {
+          "heading": "Blends and Fractionation",
+          "body": "Blended refrigerants contain multiple components. If charged incorrectly, the composition can shift. This is why liquid charging is emphasized for many blends."
+        },
+        {
+          "heading": "No True Drop-In Assumption",
+          "body": "A replacement refrigerant is not automatically a true drop-in. A retrofit may require oil, metering device, pressure, capacity, and label changes."
+        }
+      ],
+      "chart": {
+        "title": "Compatibility Checklist",
+        "columns": ["Item", "Why It Matters", "Exam Clue"],
+        "rows": [
+          ["Oil type", "Compressor lubrication", "Wrong oil can damage compressor"],
+          ["Blend charging", "Composition stability", "Charge as liquid"],
+          ["Retrofit label", "Future service safety", "Clearly mark system"],
+          ["Mixed refrigerant", "Contamination", "Recover separately"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Know blend, reclaim, and contamination basics."},
+        {"type": "Type I", "point": "Small appliances may use specific factory charge refrigerants and oils."},
+        {"type": "Type II", "point": "Retrofits, R-22 alternatives, R-410A handling, and oil compatibility are common."},
+        {"type": "Type III", "point": "Large systems require careful refrigerant and oil management due to cost and volume."}
+      ],
+      "imagePrompts": [
+        "Diagram: refrigerant cylinder, oil bottle, compressor label, and retrofit tag checklist.",
+        "Wordless workshop panel: technician refuses to mix unknown refrigerant with clean recovery cylinder."
+      ]
+    },
+    {
+      "id": "exam-strategy-patterns",
+      "title": "Exam Strategy: How to Read EPA 608 Questions",
+      "subtitle": "Pattern recognition for test wording: complete answer, safest answer, and type-specific clue words.",
+      "sections": [
+        {
+          "heading": "Choose the Complete Compliant Answer",
+          "body": "When a question lists several true safety or legal actions, the correct answer is often the one that includes all required steps. EPA 608 questions often reward full compliance rather than shortcuts."
+        },
+        {
+          "heading": "Look for Type Clues",
+          "body": "Small appliance points toward Type I. High-pressure, residential split, or commercial refrigeration points toward Type II. Chiller, purge unit, below atmospheric pressure, or R-123 points toward Type III."
+        },
+        {
+          "heading": "Watch for Dangerous Words",
+          "body": "Words like vent, oxygen, overfill, mix, cut charged line, or ignore leak usually point to wrong answers. Words like recover, label, isolate, regulate, verify, and leak test often point to safer answers."
+        }
+      ],
+      "chart": {
+        "title": "Question Clue Words",
+        "columns": ["Clue", "Likely Type", "Think"],
+        "rows": [
+          ["5 lb or less", "Type I", "Small appliance"],
+          ["High pressure / R-410A", "Type II", "Liquid recovery, compressor protection"],
+          ["Purge unit / R-123", "Type III", "Low-pressure chiller"],
+          ["Chlorine / ozone", "Core", "CFC/HCFC"],
+          ["80% fill", "Core", "Cylinder safety"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Know universal rules: no venting, cylinder safety, environment, definitions."},
+        {"type": "Type I", "point": "Look for small appliance, sealed system, passive recovery, disposal."},
+        {"type": "Type II", "point": "Look for high pressure, major repair, liquid line, condenser, compressor."},
+        {"type": "Type III", "point": "Look for low pressure, chiller, purge unit, air infiltration, heating for leak check."}
+      ],
+      "imagePrompts": [
+        "Wordless workshop panel: student circles clue words in an EPA 608 question.",
+        "Chart: clue words mapped to Core, Type I, Type II, Type III."
       ]
     }
   ]
