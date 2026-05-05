@@ -1,1 +1,121 @@
+{
+  "modules": [
+    {
+      "id": "refrigerant-foundation",
+      "title": "Refrigerant: The Foundation",
+      "subtitle": "What refrigerant is, why state matters, and why vapor vs. liquid shows up across Core, Type I, Type II, and Type III.",
+      "sections": [
+        {
+          "heading": "Big Idea",
+          "body": "Refrigerant moves heat by changing state. It absorbs heat when it boils into vapor and releases heat when it condenses back into liquid. Most EPA 608 questions are really asking whether you understand what state the refrigerant is in, where it is in the system, and how to handle it safely."
+        },
+        {
+          "heading": "Liquid vs. Vapor",
+          "body": "The compressor should receive low-pressure vapor, not liquid. Liquid entering the compressor can cause slugging and damage internal parts. After the condenser, refrigerant is usually high-pressure liquid. After the evaporator, it should be low-pressure vapor."
+        },
+        {
+          "heading": "Charging Rule",
+          "body": "Single-component refrigerants may often be charged as vapor or liquid depending on procedure, but many blended refrigerants should be charged as liquid to prevent fractionation. Fractionation means the blend composition changes because one component enters faster than another."
+        }
+      ],
+      "chart": {
+        "title": "Refrigerant Families",
+        "columns": ["Family", "Contains Chlorine?", "Ozone Concern", "Memory Hook"],
+        "rows": [
+          ["CFC", "Yes", "High", "Old + chlorine = ozone damage"],
+          ["HCFC", "Yes", "Lower than CFC but still regulated", "R-22 is the classic example"],
+          ["HFC", "No", "No ozone depletion, but often high GWP", "No chlorine"],
+          ["HFO / Natural", "Usually no", "Lower environmental impact", "Modern low-GWP direction"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Know refrigerant families, ozone/GWP concepts, recovery/recycle/reclaim, and vapor vs. liquid basics."},
+        {"type": "Type I", "point": "Small appliances have limited access and small charge sizes. Recovery may depend on appliance pressure or compressor condition."},
+        {"type": "Type II", "point": "High-pressure systems often emphasize liquid recovery, compressor protection, and charging blends as liquid."},
+        {"type": "Type III", "point": "Low-pressure chillers may operate below atmospheric pressure, so air can leak inward and purge units matter."}
+      ],
+      "imagePrompts": [
+        "Diagram: compressor receives low-pressure vapor, condenser produces high-pressure liquid, expansion device drops pressure, evaporator boils refrigerant to vapor.",
+        "Wordless workshop panel: technician prevents liquid slugging by ensuring vapor enters compressor."
+      ]
+    },
+    {
+      "id": "recovery-strategies",
+      "title": "Recovery: Same Rule, Different Equipment",
+      "subtitle": "All types require recovery, but the strategy changes with appliance size, pressure, and system design.",
+      "sections": [
+        {
+          "heading": "Big Idea",
+          "body": "Recovery means removing refrigerant from an appliance and storing it externally. The rule is shared across all EPA 608 types: do not vent refrigerant. The method changes depending on equipment type."
+        },
+        {
+          "heading": "Recover, Recycle, Reclaim",
+          "body": "Recover means remove. Recycle means clean for reuse by filtering and oil separation. Reclaim means restore to new-product specifications, usually with chemical analysis."
+        },
+        {
+          "heading": "Liquid First vs. Vapor First",
+          "body": "On many high-pressure systems, liquid recovery is faster because liquid carries more refrigerant mass. Vapor recovery follows after liquid is removed. On small appliances and low-pressure chillers, the recovery method depends more heavily on access, pressure, and system condition."
+        }
+      ],
+      "chart": {
+        "title": "Recovery by Certification Type",
+        "columns": ["Type", "Typical Equipment", "Recovery Emphasis", "Why It Matters"],
+        "rows": [
+          ["Type I", "Small appliances", "Passive or active recovery", "Limited access and small charge size"],
+          ["Type II", "High-pressure systems", "Liquid first, then vapor", "Faster recovery and compressor protection"],
+          ["Type III", "Low-pressure chillers", "Raise pressure / recover liquid and vapor", "Low pressure can make recovery slower and air leaks more important"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Never vent. Use proper recovery equipment and cylinders."},
+        {"type": "Type I", "point": "Know small appliance limits, passive recovery, and non-operating compressor recovery."},
+        {"type": "Type II", "point": "Know liquid recovery, major repairs, evacuation levels, and pressure testing safety."},
+        {"type": "Type III", "point": "Know purge units, low-pressure recovery, and pressure-rise checks."}
+      ],
+      "imagePrompts": [
+        "Diagram: recovery machine connected to appliance and recovery cylinder with arrows showing refrigerant flow.",
+        "Wordless workshop panel: liquid recovery first, then vapor recovery."
+      ]
+    },
+    {
+      "id": "leaks-contamination-safety",
+      "title": "Leaks, Contamination, and Safety",
+      "subtitle": "The practical field clues and safety rules that show up repeatedly on the exam.",
+      "sections": [
+        {
+          "heading": "Leak Clues",
+          "body": "Oil stains near fittings or tubing can indicate a refrigerant leak because refrigerant often carries oil with it. Small leaks are usually best found with electronic or ultrasonic leak detectors."
+        },
+        {
+          "heading": "Contamination",
+          "body": "Moisture can form acids and ice restrictions. Air and non-condensables can reduce efficiency and raise pressures. Mixed refrigerants should be recovered separately and not reused as clean refrigerant."
+        },
+        {
+          "heading": "Safety",
+          "body": "Refrigerant can cause frostbite and can displace oxygen in low areas. Nitrogen must be used with a regulator. Oxygen should never be used for pressure testing because it can create an explosion hazard with oil or refrigerant."
+        }
+      ],
+      "chart": {
+        "title": "Common Problems and Test Clues",
+        "columns": ["Clue", "Likely Meaning", "Best Response"],
+        "rows": [
+          ["Oil stain", "Possible leak", "Inspect and leak test"],
+          ["Mixed refrigerants", "Contaminated refrigerant", "Recover separately"],
+          ["Moisture", "Acid or ice restriction risk", "Evacuate and use filter drier"],
+          ["Low-pressure chiller purge running often", "Air leaking in", "Leak test and repair"]
+        ]
+      },
+      "typeComparison": [
+        {"type": "Core", "point": "Know safety, oxygen displacement, cylinder rules, and never vent."},
+        {"type": "Type I", "point": "Small leaks and temporary access fittings matter because small sealed systems are easy to contaminate."},
+        {"type": "Type II", "point": "High pressure, compressor damage, nitrogen pressure testing, and condenser/evaporator issues matter."},
+        {"type": "Type III", "point": "Air infiltration, purge units, and moisture control are major concepts."}
+      ],
+      "imagePrompts": [
+        "Diagram: oil stain near flare fitting indicating possible refrigerant leak.",
+        "Wordless workshop panel: technician uses nitrogen regulator, never oxygen."
+      ]
+    }
+  ]
+}
 
