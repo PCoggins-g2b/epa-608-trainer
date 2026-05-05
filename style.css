@@ -271,6 +271,26 @@ button {
   margin-bottom:10px;
   background:#f8fafc;
 }
+  .module-card {
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:16px;
+  margin-bottom:14px;
+  background:#f8fafc;
+}
+
+.module-card h3 {
+  margin-top:0;
+}
+
+.module-actions {
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:20px;
+  padding-top:15px;
+  border-top:1px solid var(--border);
+}
   .hero {
     flex-direction:column;
   }
